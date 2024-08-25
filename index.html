@@ -1,0 +1,23 @@
+I used console as another way to display the final price of the bill.
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        const billPrice = prompt("What is your bill? ");
+        var tax = 1.07;
+        var tip = 0.15;
+        var billTotal = (billPrice * tax) + (billPrice * tip);
+        alert('Your final bill is ' + billTotal);
+        console.log(`Your final bill is ${billTotal}`);
+        
+        
+    </script>
+</body>
+
+</html>
